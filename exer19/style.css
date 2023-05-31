@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+body {
+background-color: gray;
+}
+h1#principal{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(245, 7, 7);
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+.basico{
+    color: blueviolet;
+    text-size-adjust: 3em;
+}

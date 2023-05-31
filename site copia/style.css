@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor01:#c5ebd6;
+    --cor02:#83e1ad;
+    --cor03:#3ddc84;
+    --cor04:#1a5c37;
+    --cor05:#063d1e;
+    --fonte-padrao: Arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: "bebas Neue", cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: var(--cor01)
+    var(--fonte-padrao)
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20PX;   
+    background-color: WHITE;
+    box-shadow:0px 0px 10px rgb(0, 0, 0) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ; 
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
+    text-align: center;
+    padding: 40px;
+}
+
+header > h1{font-family: var(--fonte-destaque);
+    color:white;
+    font-size: 3em;
+    text-shadow: 2px 2px 8px black;
+   
+    margin-bottom: 20px;
+
+}
+header > p{
+    font-family: var(--fonte-padrao);
+    color: white;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+}
+    
+    
+
+main h1{
+    color:var(--cor04)
+}
+nav{
+    background-color: #063d1e;
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgb(0, 0, 0);
+}
+nav > a{
+    color: white;
+    padding: 20px;
+    border-radius:5px ;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+nav > a:hover{
+   background-color: var(--cor03
+   ); 
+}

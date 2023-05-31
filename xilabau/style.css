@@ -1,0 +1,69 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    
+   
+}
+
+body{
+    background-color: rgb(235, 230, 230);
+}
+header{
+    background-image: linear-gradient(white, rgb(92, 92, 102), rgb(61, 61, 69));
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px black;
+}
+header > h1{
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    font-size: 3em;
+    
+}
+header > a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+}
+nav{
+    background-color: rgb(242, 244, 235);
+    margin: 0px 30px 0px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px black;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px ;
+}
+nav > h1{
+    text-shadow: 0px 0px 0.7px black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+header > a:hover{
+    text-decoration: 5s;
+    background-color: white;
+   
+    border-radius: 10px;
+}
+nav >ul{
+    margin:30px 0px 0px 15px;
+    list-style-position: inside;
+    columns: 3;
+}
+    
+    
+    
+
+nav > h2{ 
+  text-align: center;
+  text-shadow: 0px 0px 0.7px rgb(0, 0, 0);
+}
+footer{
+    border-radius: 2px;
+    margin: 0px 31px 0px 31px;
+    text-align: center;
+    background-image: linear-gradient(rgb(24, 23, 24),rgb(90, 89, 89),rgb(149, 143, 143));
+    box-shadow: 0px 0px 6px black;
+}
